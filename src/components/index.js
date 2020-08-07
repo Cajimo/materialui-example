@@ -8,6 +8,7 @@ import Header from './Header';
 const useStyles = makeStyles({
   particlesCanva: {
     position: 'absolute',
+    opacity: '0.3',
   },
 });
 
