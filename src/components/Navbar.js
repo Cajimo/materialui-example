@@ -13,9 +13,7 @@ import {
   List,
   Typography,
   Box,
-  ThemeProvider,
   ListItemIcon,
-  Slider,
 } from '@material-ui/core';
 import {
   ArrowBack,
@@ -25,6 +23,7 @@ import {
   ContactMail,
 } from '@material-ui/icons';
 import avatar from '../avatar.png';
+import Footer from './Footer';
 
 // CSS STYLES
 const useStyles = makeStyles((theme) => ({
@@ -62,8 +61,8 @@ const menuItems = [
   },
   {
     listIcon: <ContactMail />,
-    listText: 'Contacts',
-    listPath: '/contacts',
+    listText: 'Contact',
+    listPath: '/contact',
   },
 ];
 
@@ -119,6 +118,7 @@ const Navbar = () => {
               onClose={toggleSlider('right', false)}
             >
               {sideList('right')}
+              <Footer />
             </MobilRightMenuSlider>
           </Toolbar>
         </AppBar>
