@@ -157,7 +157,69 @@ const Resume = () => {
               align="center"
               className={classes.subHeading}
             >
-              web design
+              web development
+            </Typography>
+            <Typography
+              variant="body1"
+              align="center"
+              style={{ color: 'tomato' }}
+            >
+              company name where worked
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: 'tan' }}
+            >
+              Lorem20 ipsum hasta completar veinte palabras que ya no sé cuántas
+              van así que me vale gorro lo demás y hasta aquí.
+            </Typography>
+          </Box>
+
+          <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            2012
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              align="center"
+              className={classes.subHeading}
+            >
+              Ilustración
+            </Typography>
+            <Typography
+              variant="body1"
+              align="center"
+              style={{ color: 'tomato' }}
+            >
+              company name where worked
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: 'tan' }}
+            >
+              Lorem20 ipsum hasta completar veinte palabras que ya no sé cuántas
+              van así que me vale gorro lo demás y hasta aquí.
+            </Typography>
+          </Box>
+
+          <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            2013
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              align="center"
+              className={classes.subHeading}
+            >
+              react | redux
             </Typography>
             <Typography
               variant="body1"
